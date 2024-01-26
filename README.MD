@@ -74,6 +74,8 @@ After running the script, you will have a JSON file named `ListedCompanies.json`
 
 Feel free to explore and analyze the data further using MongoDB or any other NoSQL database of your choice.
 
+![mondodb](https://github.com/candythink/Listed-Companies-Data-Cleaning/blob/withPic/pics/mongodb.png?raw=true)
+
 ## Contributing
 
 Feel free to contribute to this project by creating pull requests or opening issues. Your feedback and contributions are highly appreciated.
