@@ -80,6 +80,9 @@ def read_and_clean_excel(file_path, sheet_name, header_text):
                 data[column] = data[column].apply(remove_all_spaces)
             else:
                 data[column] = data[column].apply(clean_spaces)
+        
+        data['CG Score'] = data['CG Score'].fillna(0)
+        data = data.map(lambda x: ' '.join(x.split()) if isinstance(x, str) else x)
 
         return data
 
